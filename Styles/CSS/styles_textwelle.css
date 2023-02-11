@@ -1,0 +1,47 @@
+h2.index, h2.gewinnspiel, h2.produkt, h2.filialtitel, h2.über_uns
+{
+ font-size: 40px;
+ -webkit-animation: textwelle 2s;
+ animation: textwelle 2s;
+ text-align: center;
+}
+h2.gewinnspiel, h2.produkt { padding: 30px; }
+h2.über_uns { padding: 20px; }
+
+@keyframes textwelle
+{
+ 0%
+ {
+  font-size: 0;
+  opacity: 0;
+ }
+ 90%
+ {
+  font-size: 45px;
+  opacity: 1;
+ }
+ 100%
+ {
+  font-size: 40px;
+  opacity: 1;
+ }
+}
+
+@-webkit-keyframes textwelle
+{
+ 0%
+ {
+  font-size: 0;
+  opacity: 0;
+ }
+ 90%
+ {
+  font-size: 45px;    
+  opacity: 1;
+ }
+ 100%
+ {
+  font-size: 40px;
+  opacity: 1;
+ }
+}

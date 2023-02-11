@@ -1,0 +1,247 @@
+*
+{
+ margin: 0px auto;
+ padding: 0;
+}
+
+div#center
+{
+ width: 1400px;
+ height: 1000px;
+ background-color: transparent;
+ color: #553920;
+ font-family: ARIAL;
+ margin: 0 auto;
+}
+
+div#logo_name
+{
+ width: 1400px;
+ height: 125px;
+ background-color: transparent;
+ background-image: url("../../Images/Hintergründe/Titelbild.png");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ margin: 0 auto;
+}
+
+div#logo_name .logo-size
+{
+ height: 120px;
+ width: 120px;
+}
+
+div#navigation
+{
+ width: 100%;
+ height: 40px;
+ background-color: #553920;
+}
+
+div#main
+{
+ width: 100%;
+ height: 730px;
+ background-image: url("../../Images/Hintergründe/Webseiten Hintergrund.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ padding: 25px 0px;
+}
+
+div#inhalt, div#inhalt_sortiment, div#inhalt_filiale, div#inhalt_gewinnspiel, div#inhalt_impressum
+{
+ width: 1100px;
+ height: 100%;
+ background-color: white;
+ /*font-size: 30px;*/
+ background: rgba(255, 255, 255, 0.5);
+}
+div#inhalt_sortiment, div#inhalt_filiale, div#inhalt_gewinnspiel, div#inhalt_impressum { overflow-y: auto; }
+
+div#inhalt_gründerfoto
+{
+ float: left;
+ width: 40%;
+ height: 80%;
+ margin: 0 auto;
+}
+div#inhalt_gründerfoto img
+{
+ width: 400px;
+ height: 455px;
+}
+div#inhalt_geschichte
+{
+ float: right;
+ width: 55%;
+ height: 90%;
+ overflow-y: auto;
+ font-size: 26px;
+ padding-top: 15px;
+ padding-right: 35px;
+}
+
+div#inhalt_gewinnspiel p, div#inhalt_gewinnspiel table
+{
+ font-size: 30px;
+ text-align: center;
+}
+div#inhalt_gewinnspiel p.hinweis { font-size: 22px; }
+
+div#info
+{
+ width: 100%;
+ height: 75px;
+ background-color: #A52A2A;
+}
+
+div#filiale
+{
+ width: 33.05%;
+ height: 99.7%;
+ float: left;
+ border: 1px black solid;
+}
+
+div#karte
+{
+ width: 66.35%;
+ height: 99.7%;
+ float: right;
+ border: 1px black solid;
+}
+
+div#copyright
+{
+ width: 100%;
+ height: 20px;
+ background-color: #deb887;
+}
+/* Divs zuende */
+
+h1
+{
+ font-size: 50px;
+ color: white;
+}
+/* h2 wird in styles_textwelle verwendet */
+h3
+{
+ font-size: 32.5px;
+ font-style: italic;
+ text-align: center;
+}
+
+a
+{
+ text-decoration: none;
+ color: black;
+}
+a.mail
+{
+ text-decoration: underline;
+ color: blue;
+}
+
+hr
+{
+ border: 2px red dashed;
+ margin: 25px 0;
+}
+
+.zurück
+{
+ width: 110px;
+ height: 60px;
+ top: 0px;
+ float: right;
+}
+
+.image_size
+{
+ width: 100%;
+ height: 100%;
+}
+img.produktbild
+{
+ width: 550px;
+ height: 450px;
+}
+
+img.bildfilale
+{
+ width: 500px;
+ height: 350px;
+ border: 1px black solid;
+}
+
+select.size
+{
+ width: 250px;
+ font-size: 25px;
+ margin: 30px;
+ background: none;
+ border: 0.5px black solid;
+}
+
+input
+{
+ width: 17.5px;
+ height: 17.5px;
+ background: none;
+ border: 0.5px black solid;
+}
+
+input.button
+{
+ width: 130px;
+ height: 30px;
+ text-align: center;
+ font-size: 22.5px;
+ background: none;
+ border: 0.5px black solid;
+}
+
+input.eingabe, select.select_eingabe
+{
+ width: 300px;
+ height: 25px;
+ text-align: center;
+ font-size: 22.5px;
+ background: none;
+ border: 0.5px black solid;
+ margin-left: 12.5px;
+}
+input:focus-within
+{
+ border-color: #818181;
+ background: #EAEAEA;
+ opacity: 0.8;
+}
+
+iframe.karten
+{
+ width: 100%;
+ height: 100%;
+ border: 0;
+}
+
+p.format
+{
+ font-size: 27.5px;
+ padding: 0 100px;
+}
+p.formatcenter
+{
+ font-size: 27.5px;
+ padding: 0 100px;
+ text-align:center;
+}
+p.produkt_abstand { padding: 0 50px; }
+p.font-size { font-size: 20px; }
+
+s
+{
+ color: red;
+ padding: 0 20px;
+}

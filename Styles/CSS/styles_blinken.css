@@ -1,0 +1,79 @@
+/* Gewinnspiel */
+.blink
+{
+ -webkit-animation: blink 1s linear infinite;
+ -moz-animation: blink 1s linear infinite;
+ animation: blink 4s linear infinite;
+}
+
+.gewinnspiel_room
+{
+ width: 750px;
+ height: 200px;
+ border-style: outset;
+ border-width: 7.5px;
+ margin: 40px auto;
+}
+
+@keyframes blink
+{
+  0% { border-color: red; }
+  12.5% { border-color: orange; }
+  25% { border-color: yellow; }
+  50% { border-color: green; }
+  75% { border-color: blue; }
+  90% { border-color: violet; }
+  100% { border-color: red; }
+}
+
+@-webkit-keyframes blink
+{
+  0% { border-color: red; }
+  12.5% { border-color: orange; }
+  25% { border-color: yellow; }
+  50% { border-color: green; }
+  75% { border-color: blue; }
+  90% { border-color: violet; }
+  100% { border-color: red; }
+}
+
+/* Fieldset */
+.blink_fieldset
+{
+ -webkit-animation: blink_fieldset 1s linear infinite;
+ -moz-animation: blink_fieldset 1s linear infinite;
+ animation: blink_fieldset 1.5s linear infinite;
+}
+
+fieldset.fieldset-size
+{
+ width: 65%;
+ border-width: 4px;
+ border-style: outset;
+ margin-top: 10px;
+}
+legend.format
+{
+ font-family: Skita;
+ font-weight: bold;
+ border-style: outset;
+ padding: 5px 10px;
+ color: #553920;
+}
+
+@keyframes blink_fieldset
+{
+  0% { border-color: #FF8080; }
+  15% { border-color: orange; }
+  50% { border-color: yellow; }
+  85% { border-color: orange; }
+  100% { border-color: #FF8080; }
+}
+@-webkit-keyframes blink_fieldset
+{
+  0% { border-color: #FF8080; }
+  15% { border-color: orange; }
+  50% { border-color: yellow; }
+  85% { border-color: orange; }
+  100% { border-color: #FF8080; }
+}

@@ -1,0 +1,75 @@
+.sweep-to-bottom
+{
+ position: relative;
+ -webkit-transform: translateZ(0);
+ transform: translateZ(0);
+ -webkit-transition: color 0.1s;
+ transition: color 0.1s;
+ font-size: 22.5px;
+}
+.sweep-to-bottom:before
+{
+ font-size: 25px;
+ color: white;
+ content: "";
+ position: absolute;
+ z-index: -1;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: #733914;
+ -webkit-transform: scaleY(0);
+ transform: scaleY(0);
+ -webkit-transform-origin: 50% 0%;
+ transform-origin: 50% 0%;
+ -webkit-transition-property: transform;
+ transition-property: transform;
+ -webkit-transition: 0.1s ease-out;
+ transition: 0.1s ease-out;
+}
+.sweep-to-bottom:hover:before
+{
+ font-size: 25px;
+ color: white;
+ -webkit-transform: scaleY(1);
+ transform: scaleY(1);
+}
+
+ /* https://www.zella.de/code/text_ueber_bild.html */
+div#bild
+{
+ position: relative;
+ width: 500px;
+ height: 300px;
+}
+
+
+div#bild a { display: block; }
+
+
+div#bild a:hover {}
+
+
+div#bild a span { display: none; }
+
+
+div#bild a:hover span
+{
+ display: block;
+ 
+ font-size: 24px;
+ text-align: center;
+ position: absolute;
+ top: 0px;
+ left: 0;
+ width: 420px;
+ padding: 10px;
+ margin: 29px;
+ z-index: 100;
+ color: white;
+ background: black;
+ filter:alpha(opacity=40);
+ -moz-opacity:.40;
+ opacity:.40;
+}

@@ -1,0 +1,36 @@
+.dropdown, .dropdown-filiale
+{
+ position: relative;
+ display: block;
+}
+
+.dropdown-content, .dropdown-content_rechts
+{
+ display: none;
+ position: absolute;
+ width: 198px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 4px 0px 0px 0px; 
+ /* z-index: 1; */
+ color: #FFFFC4;
+}
+
+.dropdown-content_rechts
+{
+padding: 0px 0px 0px 0px; 
+ top: 0px;
+ left: 198px;
+ width: 245px;
+}
+
+.dropdown:hover .dropdown-content, .dropdown-filiale:hover .dropdown-content_rechts
+{
+ display: block;
+ background-color: #674930;
+}
+
+.dropdown:hover .dropdown-content a:hover, .dropdown-filiale:hover, .dropdown-filiale:hover .dropdown-content_rechts a:hover
+{
+ display: block;
+ background-color: #7F5F45;
+}

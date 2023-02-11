@@ -1,0 +1,50 @@
+.scene
+{
+  padding-top: 10px;
+  position: relative;
+  height: 270px;
+  width: 300px;
+  margin: 0px auto;
+  
+  background-color: transparent;
+}
+
+.carousel
+{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: translateZ(-288px);
+  transform-style: preserve-3d;
+  transition: transform 0.01s;
+  background-color: transparent;
+}
+
+.carousel__cell
+{
+  position: absolute;
+  height: 270px;
+  width: 300px;
+  /* border: 2px solid black; */
+}
+
+.carousel__cell:nth-child(9n+1) { background: hsla(  0, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+2) { background: hsla( 40, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+3) { background: hsla( 80, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+4) { background: hsla(120, 100%, 50%, 0.8); }
+
+.carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(288px); }
+.carousel__cell:nth-child(2) { transform: rotateY( 90deg) translateZ(288px); }
+.carousel__cell:nth-child(3) { transform: rotateY(180deg) translateZ(288px); }
+.carousel__cell:nth-child(4) { transform: rotateY(270deg) translateZ(288px); }
+
+/* button zum weiter klicken */
+div#buttons{
+ padding-top: 285px;
+ text-align: center;
+}
+button
+{
+ font-size: 20px;
+ padding: 1.5px 17.5px;
+}
